@@ -14,3 +14,10 @@ Fue necesario encontrar una nueva alternativa al entretenimiento, debido a la pa
 - **Bonus:** bloqueos de usuarios en algunos retos, selección de categorías, multiplicar puntos obtenidos
 
 ## Diagramas:
+![Alt text](img/inicio.png?raw=true "User")
+Ingreso del usuario al juego
+
+![Alt text](img/desarrollo.png?raw=true "Play")
+El juego en desarrollo
+
+## Historias de usuario:
