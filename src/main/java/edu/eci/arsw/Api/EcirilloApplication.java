@@ -1,6 +1,4 @@
-/**
- *
- *
+
 package edu.eci.arsw.Api;
 
 import org.springframework.boot.SpringApplication;
@@ -13,4 +11,3 @@ public class EcirilloApplication {
         SpringApplication.run(EcirilloApplication.class, args);
     }
 }
- */
