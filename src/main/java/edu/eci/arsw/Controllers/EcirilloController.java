@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/Ecrilo")
+@RequestMapping(value = "/Ecirillo")
 public class EcirilloController {
 
     @Autowired
@@ -23,5 +23,7 @@ public class EcirilloController {
             return new ResponseEntity<>(e.getMessage(),HttpStatus.NOT_FOUND);
         }
     }
+
+
 
 }

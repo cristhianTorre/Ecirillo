@@ -28,4 +28,8 @@ public class EcirilloServices {
     public String winner(Integer roomId){
         return rooms.get(roomId).getUsers().get(0).getName();
     }
+
+    public EcirilloServices get(){
+        return this;
+    }
 }
