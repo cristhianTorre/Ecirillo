@@ -2,6 +2,7 @@ package edu.eci.arsw.Services;
 
 import edu.eci.arsw.Model.Room;
 import edu.eci.arsw.Model.User;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -31,5 +32,14 @@ public class EcirilloServices {
 
     public EcirilloServices get(){
         return this;
+    }
+
+    @Bean
+    public List<String> getList() {
+        return list;
+    }
+    @Bean
+    public void setList(List<String> list) {
+        this.list = list;
     }
 }
